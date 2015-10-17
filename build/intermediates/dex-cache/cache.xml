@@ -1,41 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-94ff879f73ae6cebb0c249836a4fb90b3238c1e5.jar"
-        jar="/Users/billey_b/dev/lib/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jar="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
-        revision="21.0.1"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-8fc3fc949e4aade93b83b9f067e713541b4ae02c.jar" />
+    </item>
     <item
-        dex="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/pre-dexed/debug/realm-0.73.1-javadoc-7af119773fcf4370014f9d5e7b5563e492f4d66a.jar"
-        jar="/Users/billey_b/dev/android/RealmDemo/app/libs/realm-0.73.1-javadoc.jar"
+        jar="/Users/billey_b/dev/lib/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
         jumboMode="false"
-        revision="21.0.1"
-        sha1="d202bf9aeeb37378962593f8db6947959b872ef6"/>
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-7920f7d5430e8c20fbb2b3590e93f685bf87773f.jar" />
+    </item>
     <item
-        dex="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/pre-dexed/debug/realm-0.73.1-4bfd610b91c66720e8f28467517136b897558b47.jar"
-        jar="/Users/billey_b/dev/android/RealmDemo/app/libs/realm-0.73.1.jar"
+        jar="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="false"
-        revision="21.0.1"
-        sha1="3d71534849c19a9b086bab110feba1d3ff752ce5"/>
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/pre-dexed/debug/classes-20cb50ebfce726d49da5c2fb2780d7e59e72b719.jar" />
+    </item>
     <item
-        dex="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-60a824d03c04f86c3a9f1791fc7ddbfe1bf777dc.jar"
-        jar="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jar="/Users/billey_b/.gradle/caches/modules-2/files-2.1/io.realm/realm-android/0.83.1/4ebcfd51351bce121bffe0a7305dc9ce13ae0c1f/realm-android-0.83.1.jar"
         jumboMode="false"
-        revision="21.0.1"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+        revision="23.0.1"
+        sha1="4ebcfd51351bce121bffe0a7305dc9ce13ae0c1f">
+        <dex dex="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/pre-dexed/debug/realm-android-0.83.1-f60ab91ee4ca39eaff1b1f0e7ff442ab084c8f73.jar" />
+    </item>
     <item
-        dex="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/pre-dexed/debug/classes-9d9f289874d946951656af9a4b37292a5474507e.jar"
-        jar="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
+        jar="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
-        revision="21.0.1"
-        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2"/>
-    <item
-        dex="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/pre-dexed/debug/classes-616159ef464ca420284b2bf4f159b0aa603319f6.jar"
-        jar="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.1"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/billey_b/dev/android/RealmDemo/app/build/intermediates/pre-dexed/debug/classes-e598e082c3f03f70f5217e8bdd5e74bef0cbb08d.jar" />
+    </item>
 
-</pre-dex-items>
+</items>
