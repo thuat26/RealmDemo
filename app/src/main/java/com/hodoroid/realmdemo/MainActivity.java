@@ -16,6 +16,7 @@ import io.realm.RealmResults;
 
 public class MainActivity extends Activity {
 
+    public static final int REQUEST_CODE = 0x1;
     ArrayList<Person> persons = new ArrayList<>();
     private ListView mListView;
     private MyListAdapter mAdapter;
@@ -34,17 +35,19 @@ public class MainActivity extends Activity {
                 Person p = persons.get(position);
                 Intent intent = new Intent(MainActivity.this, EditActivity.class);
                 intent.putExtra("person", p.getId());
-                startActivity(intent);
+                startActivityForResult(intent, REQUEST_CODE);
             }
         });
     }
 
     public void loadData() {
+        persons.clear();
         Realm realm = Realm.getInstance(this);
         RealmResults<Person> query = realm.where(Person.class)
                 .findAll();
         for (Person p : query) {
-            persons.add(p);
+            if (p.isValid())
+                persons.add(p);
         }
     }
 
@@ -58,5 +61,14 @@ public class MainActivity extends Activity {
         realm.commitTransaction();
         persons.add(p);
         mAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQUEST_CODE) {
+            loadData();
+            mAdapter.notifyDataSetChanged();
+        }
     }
 }

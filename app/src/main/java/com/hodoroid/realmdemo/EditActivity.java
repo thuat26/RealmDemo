@@ -38,6 +38,7 @@ public class EditActivity extends Activity {
         toEdit.setName(mName.getText().toString());
         realm.commitTransaction();
         Toast.makeText(getApplicationContext(), "updated", Toast.LENGTH_SHORT).show();
+        finish();
     }
 
     public void delete(View view) {
@@ -48,5 +49,11 @@ public class EditActivity extends Activity {
         toEdit.removeFromRealm();
         realm.commitTransaction();
         finish();
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        finishActivity(MainActivity.REQUEST_CODE);
     }
 }
